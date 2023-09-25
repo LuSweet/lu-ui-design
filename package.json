@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name lu-ui --dest lu-ui"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.3",
     "vue": "^2.6.14"
   },
   "devDependencies": {

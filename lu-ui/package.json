@@ -1,0 +1,12 @@
+{
+  "name": "lu-ui-design",
+  "version": "1.0.2",
+  "description": "lu-ui-desgin个人组件库",
+  "main": "lu-ui.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
