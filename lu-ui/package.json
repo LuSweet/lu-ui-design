@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuSweet/lu-ui-design.git"
+  },
+  "keywords": [
+    "lu-ui",
+    "vue",
+    "components"
+  ],
   "author": "",
   "license": "ISC"
 }

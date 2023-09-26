@@ -2,7 +2,7 @@
  * @Author: Lu Zhu
  * @Date: 2023-09-20 23:56:09
  * @LastEditors: Lu Zhu
- * @LastEditTime: 2023-09-25 23:47:23
+ * @LastEditTime: 2023-09-26 23:47:18
  * @FilePath: \lu-ui-design\src\App.vue
  * @Description: 
 -->
@@ -10,6 +10,7 @@
   <div id="app">
     这是测试
     <lu-button type="error" @click="visible = !visible">玩笑</lu-button>
+    <lu-divider>居中测试</lu-divider>
     <lu-card title="标2题" hover>
       <ul>
         <li>这是测试</li>
@@ -39,13 +40,14 @@
 import luButton from './package/lu-button/index.vue'
 import luDialog from './package/lu-dialog/index.vue'
 import luCard from './package/lu-card/index.vue'
-
+import luDivider from './package/lu-divider/index.vue'
 export default {
   name: 'App',
   components: {
     luButton,
     luDialog,
     luCard,
+    luDivider,
   },
   data(){
     return{
