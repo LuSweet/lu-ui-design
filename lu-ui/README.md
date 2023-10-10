@@ -2,7 +2,7 @@
  * @Author: Lu Zhu
  * @Date: 2023-09-25 23:25:14
  * @LastEditors: Lu Zhu
- * @LastEditTime: 2023-09-26 23:58:14
+ * @LastEditTime: 2023-10-10 23:54:31
  * @FilePath: \lu-ui-design\lu-ui\README.md
  * @Description: 
 -->
@@ -26,6 +26,21 @@ lu-dailog
 ### 卡片
 ```
 lu-card
+```
+
+### 分割线
+```
+lu-divider
+```
+
+### 链接
+```
+lu-link
+```
+
+### 抽屉
+```
+lu-drawer
 ```
 
 ### Customize configuration
