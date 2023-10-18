@@ -43,6 +43,15 @@ lu-link
 lu-drawer
 ```
 
+### 空状态
+```
+lu-empty
+```
+
+### 头像
+```
+lu-avatar
+```
 ### Customize configuration
 See [github代码仓](https://github.com/LuSweet/lu-ui-design).
 [学习地址](https://zhuanlan.zhihu.com/p/459284053). 

@@ -2,7 +2,7 @@
  * @Author: Lu Zhu
  * @Date: 2023-09-20 23:56:09
  * @LastEditors: Lu Zhu
- * @LastEditTime: 2023-10-10 23:43:32
+ * @LastEditTime: 2023-10-18 23:33:48
  * @FilePath: \lu-ui-design\src\App.vue
  * @Description: 
 -->
@@ -12,6 +12,9 @@
     <lu-button type="error" @click="visible = !visible">玩笑</lu-button>
     <lu-link>测试link</lu-link>
     <lu-divider>居中测试</lu-divider>
+    <lu-empty>这是空组件</lu-empty>
+    <lu-avatar></lu-avatar>
+
     <lu-card title="标2题" hover>
       <ul>
         <li>这是测试</li>
@@ -59,6 +62,8 @@ import luCard from './package/lu-card/index.vue'
 import luDivider from './package/lu-divider/index.vue'
 import luLink from './package/lu-link/index.vue'
 import luDrawer from './package/lu-drawer/index.vue'
+import luEmpty from './package/lu-empty/index.vue'
+import luAvatar from './package/lu-avatar/index.vue'
 export default {
   name: 'App',
   components: {
@@ -68,6 +73,8 @@ export default {
     luDivider,
     luLink,
     luDrawer,
+    luEmpty,
+    luAvatar,
   },
   data(){
     return{

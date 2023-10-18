@@ -1,6 +1,6 @@
 {
   "name": "lu-ui-design",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "lu-ui-desgin个人组件库",
   "main": "lu-ui.common.js",
   "scripts": {
